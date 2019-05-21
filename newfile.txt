@@ -1,1 +1,8 @@
-bb
+一、如何将一个在本地新建的文件同步到服务器：
+（1）新建一个文件 gedit newfile.txt
+（2）查看是否修改、跟踪  git status
+（3）没有跟踪 则  跟踪所有文件 git add .    或者   只跟踪一个文件 git add newfile.txt
+（4）将跟踪的文件从本地同步到库中  git commit -am "newfile.txt"
+（5）将库的文件同步到服务器上  git push
+（6）输入帐号shi-congcong和密码shicong123456  ,
+（7）完成。
